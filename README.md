@@ -12,20 +12,20 @@ The dataset used is the **Iris dataset** from the `sklearn` library. It contains
 
 ## Project Tasks and Components
 
-### 1. **Loading and Preprocessing** (1 mark)
+### 1. **Loading and Preprocessing** 
 - The Iris dataset was loaded using `sklearn.datasets`.
 - As this is a clustering problem, the **species column** was dropped from the dataset.
 
 ### 2. **Clustering Algorithm Implementation** (8 marks)
 
-#### A) **KMeans Clustering** (4 marks)
+#### A) **KMeans Clustering** 
 - **Description:** KMeans clustering is a partitioning method that groups data points into `k` clusters based on their features. It minimizes the variance within clusters.
 - **Why suitable for Iris dataset?**: The Iris dataset is well-suited for KMeans as it contains distinct clusters corresponding to flower species, making it ideal for separating data points based on similarity.
 - **Steps:**
   - Applied KMeans with `n_clusters=3`.
   - Visualized the clusters using a scatter plot.
 
-#### B) **Hierarchical Clustering** (4 marks)
+#### B) **Hierarchical Clustering** 
 - **Description:** Hierarchical clustering builds a tree-like structure (dendrogram) by either agglomerating or dividing data points based on their similarity.
 - **Why suitable for Iris dataset?**: This method captures nested relationships and provides insights into the dataset's natural groupings.
 - **Steps:**
@@ -33,8 +33,6 @@ The dataset used is the **Iris dataset** from the `sklearn` library. It contains
   - Generated a dendrogram for better visualization.
   - Visualized the clusters using a scatter plot.
 
-### 3. **Timely Submission** (1 mark)
-The completed project is submitted on time.
 
 ---
 
